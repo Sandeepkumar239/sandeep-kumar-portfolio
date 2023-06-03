@@ -217,7 +217,7 @@ body::before {
 
 @media screen and (max-width: 1490px) {
     body {
-        background: url('../images/background7.jpg');
+        background: url('background7.jpg');
         height: 100vh;
         width: 100vw;
     }
