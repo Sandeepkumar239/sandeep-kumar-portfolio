@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body {
+    background-color: rgb(133, 136, 138);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.body {
+    background-color: rgb(165, 173, 177);
+}
+
+.sidebar {
+    display: flex;
+    width: 9vw;
+    height: 100%;
+    color: rgb(8, 8, 8);
+    flex-wrap: wrap;
+    width: fit-content;
+    position: absolute;
+    transition: transform 0.3s ease-out;
+}
+
+.sidebar::before {
+    background-color: rgb(63, 66, 68);
+    ;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+}
+
+.sidebarGo {
+    transform: translate(-4420px, 0px);
+    position: absolute;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-family: 'Luxurious Roman', cursive;
+    color: rgb(238, 231, 231);
+}
+
+.sidebar ul li a:hover {
+    color: rgb(82, 79, 79);
+    text-decoration: underline;
+}
+
+.sidebar nav ul li {
+    font-size: 19px;
+    padding: 21px 20px;
+}
+
+.sidebar nav {
+    margin-top: 30px;
+}
+
+.hamburger {
+    position: absolute;
+    left: 1px;
+    top: 6px;
+    cursor: pointer;
+}
+
+.cross {
+    margin-left: 100px;
+}
+
+.di {
+    margin: -60px 151px
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+    right: 18px;
+    top: 10px;
+}
+
+.ArtInfo {
+    margin: 30px 166px;
+    padding: 2px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ArtInfon,
+h1 {
+    margin-top: 15px;
+}
+
+.ArtInfon,
+p {
+    margin-top: 15px;
+}
+
+.drawingContainer {
+    margin: 5px 162px;
+    display: flex;
+    align-items: center;
+    flex-shrink: inherit;
+    flex-wrap: wrap;
+}
+
+.btns {
+    width: 98%;
+}
+
+.btns img {
+    position: relative;
+    right: -137px;
+    cursor: pointer;
+}
+
+.btns img:hover {
+    color: rgb(95, 215, 236);
+    border: 1px solid rgb(71, 172, 212);
+    width: 25px;
+}
+
+.btns button {
+    position: relative;
+    top: -3px;
+    left: -1px;
+    padding: 5px 16px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #798387;
+    cursor: pointer;
+}
+
+.btns button:hover {
+    background-color: rgb(179, 185, 185);
+}
+
+.mg1Container {
+    border: 2px solid black;
+    width: 267px;
+    height: 327px;
+    padding: 31px 26px;
+    margin: 2px 10px;
+    border-radius: 63px;
+    background-color: #adaead;
+}
+
+#m1 {
+    width: 259px;
+    height: 313px;
+    border: 2px solid black;
+}
+
+.mg2Container {
+    border: 2px solid black;
+    width: 267px;
+    height: 327px;
+    padding: 31px 26px;
+    margin: 2px 10px;
+    border-radius: 63px;
+    background-color: #adaead;
+}
+
+#m2 {
+    width: 259px;
+    height: 313px;
+    border: 2px solid black;
+}
+
+.mg3Container {
+    border: 2px solid black;
+    width: 267px;
+    height: 327px;
+    padding: 31px 26px;
+    margin: 2px 10px;
+    border-radius: 63px;
+    background-color: #adaead;
+}
+
+#m3 {
+    width: 259px;
+    height: 313px;
+    border: 2px solid black;
+}
+
+.mg4Container {
+    border: 2px solid black;
+    width: 267px;
+    height: 327px;
+    padding: 31px 26px;
+    margin: 2px 10px;
+    border-radius: 63px;
+    background-color: #adaead;
+}
+
+#m4 {
+    width: 259px;
+    height: 269px;
+    border: 2px solid black;
+}
+
+.mg5Container {
+    border: 2px solid black;
+    width: 267px;
+    height: 326px;
+    padding: 31px 26px;
+    margin: 2px 10px;
+    border-radius: 63px;
+    background-color: #adaead;
+}
+
+#m5 {
+    width: 259px;
+    height: 240px;
+    border: 2px solid black;
+}
+
+.mg6Container {
+    border: 2px solid black;
+    width: 267px;
+    height: 327px;
+    padding: 31px 26px;
+    margin: 2px 10px;
+    border-radius: 63px;
+    background-color: #adaead;
+}
+
+#m6 {
+    width: 259px;
+    height: 268px;
+    border: 2px solid black;
+}
+
+.mg7Container {
+    border: 2px solid black;
+    width: 267px;
+    height: 327px;
+    padding: 31px 26px;
+    margin: 2px 10px;
+    border-radius: 63px;
+    background-color: #adaead;
+}
+
+#m7 {
+    width: 259px;
+    height: 305px;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 1091px) {
+    .sidebar {
+        width: 8vw;
+        height: 100vh;
+        color: black;
+        flex-wrap: wrap;
+        width: fit-content;
+        position: absolute;
+    }
+    .sidebar a {
+        font-size: 17px;
+        padding: 0px 3px;
+    }
+    .cross {
+        margin-left: 110px;
+    }
+}

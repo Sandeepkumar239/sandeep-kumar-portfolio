@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+}
+
+.container {
+    height: 200px;
+    width: 283px;
+    background-color: rgb(116, 169, 216);
+    border-radius: 5px;
+}
+
+.container button {
+    align-items: center;
+    background-color: yellow;
+    margin: auto;
+    margin: 85px 74px;
+}
