@@ -36,7 +36,7 @@
         width: fit-content;
         position: absolute;
         transition: transform 0.3s ease-out;
-        z-index: 10;
+        z-index: 2;
     }
     
     .sidebar::before {
@@ -78,17 +78,6 @@
         margin-top: 30px;
     }
     
-    /* .info {
-
-        margin: 18px 61px;
-        font-family: 'Lato', sans-serif;
-        font-family: 'Roboto Slab', serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 15px 181px;
-        
-    } */
     .info {
 
         font-family: 'Lato', sans-serif;
@@ -107,12 +96,9 @@
     }
     
     .info p {
-        /* margin: 10px -8px; */
         padding: 14px 14px;
         font-size: 15px;
-        /* border: 1px solid; */
-        /* border-radius: 29px; */
-        /* width: 747px; */
+
     }
     
     .info h2 {
@@ -356,7 +342,7 @@
     }
     
     .cross {
-        margin-left: 104px;
+        margin-left: 100px;
     }
     
     @media screen and (max-width: 1091px) {
@@ -394,7 +380,7 @@
             width: 94vw;
         }
         .sidebar nav {
-            background-color: #091028;
+            background-color: rgb(5 6 40);
             margin-top: 1px;
         }
         #nodejs {
