@@ -352,6 +352,7 @@
         left: 1px;
         top: 6px;
         cursor: pointer;
+        z-index: 3;
     }
     
     .cross {
